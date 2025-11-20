@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+     <link rel="stylesheet" href="modulo.css">
+
+</head>
+<body>
+
+    <h1>Encuesta de Satisfacción</h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Información Personal</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preguntas</legend>
+
+            <p>1. ¿Cómo calificarías nuestro servicio en general?</p>
+            <input type="radio" id="excelente" name="servicio" value="excelente">
+            <label for="excelente">Excelente</label><br>
+
+            <input type="radio" id="bueno" name="servicio" value="bueno">
+            <label for="bueno">Bueno</label><br>
+
+            <input type="radio" id="regular" name="servicio" value="regular">
+            <label for="regular">Regular</label><br>
+
+            <input type="radio" id="malo" name="servicio" value="malo">
+            <label for="malo">Malo</label><br><br>
+
+            <p>2. ¿Qué aspectos te gustaron más? (puedes seleccionar varios)</p>
+            <input type="checkbox" id="calidad" name="aspectos" value="calidad">
+            <label for="calidad">Calidad del sitio web</label><br>
+
+            <input type="checkbox" id="precio" name="aspectos" value="precio">
+            <label for="precio">muy Bueno</label><br>
+
+            <input type="checkbox" id="atencion" name="aspectos" value="atencion">
+            <label for="atencion">la informacion </label><br>
+
+            <input type="checkbox" id="envio" name="aspectos" value="envio">
+            <label for="envio">10/10</label><br><br>
+
+             </fieldset>
+
+        <button type="submit">Enviar Encuesta</button>
+         <li><a href="mdlo.html">regresar</a><li></li>
+    </form>
+
+</body>
+</html>
